@@ -15,10 +15,10 @@ IGTI – Instituto de Gestão e Tecnologia da Informação
     scikit-learn
     jupyter-lab
  
-<p>Para executar, instale as bibliotecas necessárias e execute o arquivo app.py</p>
+<p>Para executar, instale as bibliotecas necessárias e execute o arquivo app_predict.py</p>
 
     python3 -m pip install -r requirements.txt
 
 #### Execução do projeto
-![GitHub Logo](/imagem/teste_web.png)
+![GitHub Logo](/imagem/teste_web.gif)
 
