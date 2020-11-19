@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/css/mdb.min.css" rel="stylesheet">
+    <title>Previsão Diabetes</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" class="page-footer font-small black">
+    
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/"> Previsão Diabetes <span class="sr-only">(current)</span></a>
+          </li>
+           
+        </ul>
+
+      </div>
+    </nav>
+    
+    <div  class="container" >  
+     
+         <form class="jumbotron"  action="/result", method="POST">
+            <h3 ><b>Formulário para coleta de dados</b></h3> <br>
+            <p>As informações seram usadas para prever se um determinado indivíduo desenvolverá ou não diabetes.</p>
+            <div >
+            <label  for="gest">Número de Gestações</label>
+            <input class="form-control form-control-sm"   type="text" id="gest", name="gest" required>
+          </div>
+          <br>
+          <div >
+            <label for="glic">Concentração de Glicose</label>
+            <input class="form-control form-control-sm" type="text" id="glic" name="glic" required>
+          </div>
+          <br>
+          <div>
+            <label for="gest">Pressão Diastólica(mm Hg)</label>
+            <input class="form-control form-control-sm" type="text" id="pressao_d", name="pressao_d" required>
+          </div>
+          <br>
+          <div>
+            <label for="gest">Espessura da Dobra Cutânea do tríceps (mm)</label>
+            <input class="form-control form-control-sm" type="text" id="e_dobra_triceps", name="e_dobra_triceps" required>
+          </div>
+          <br>
+          <div>
+            <label for="gest">Nível de Insulina (mu U/ml)</label>
+            <input class="form-control form-control-sm" type="text" id="nv_insulina", name="nv_insulina" required>
+          </div>
+          <br>
+          <div>
+            <label for="gest">Índice de Massa Corporal</label>
+            <input class="form-control form-control-sm" type="text" id="imc", name="imc">
+          </div>
+          <br>
+          <div>
+            <label for="gest">Herança Genética</label>
+            <input class="form-control form-control-sm" type="text" id="h_genetica", name="h_geneticat" required>
+          </div>
+          <br>
+          <div>
+            <label for="age">Idade</label>
+            <input class="form-control form-control-sm" type="text" id="age" name="age" required>
+            
+          </div>
+          <button type="reset" class="btn btn-primary"><i class="fa fa-eraser"></i> Limpar</button>
+             <button type="submit" class="btn btn-info"> <i class="fa fa-database"></i>Enviar</button>
+        </form>
+        
+    </div>
+    <footer class="page-footer font-small black">
+      <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <p  > Miele Silva</p>
+      </div>
+    
+    </footer>
+</body>
+</html>
