@@ -2,7 +2,7 @@
 
 Desafio Final do BootCamp Desenvolvedor Pyhton do 
 IGTI – Instituto de Gestão e Tecnologia da Informação
-        <p>Nesse desafio, apartir de uma base de dados, foi desenvolvido um modelo de machine learning,que tem como objetivo coleta as informações necessárias do usuário e de acordo com essas informações, fazer uma previsão se ele pode ter ou não diabetes</b> </p>
+        <p>Nesse desafio, apartir de uma base de dados, foi desenvolvido um modelo de machine learning, para prever se um determinado indivíduo pode desenvolver ous não diabetes, para desenvolver o modelo foi usado a biblioteca *scikit-learn*. Para coleta os dados foi, desenvolvido uma aplicação web usando *flask*, essa aplicação receber os dados e faz uma consulta no modelo gerado e retorna se o individui possui ou não diabentes</b> </p>
     
 <p>Para seu desenvolvimento foi usado:</p>
     
